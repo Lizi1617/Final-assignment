@@ -28,10 +28,7 @@ header {
 
 .active {
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings: "slnt" 0;
+    font-family: Inter;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
@@ -42,6 +39,53 @@ header {
     margin: 100px auto;
 }
 
-i{
-     
+i {
+    width: 40px;
+    padding: 14px;
+    border-radius: 8px;
+    border: 2px solid #05BCCA;
+}
+
+.fa-magnifying-glass {
+    font-size: 12px;
+    color: #05BCCA;
+}
+
+.fa-user {
+    font-size: 12px;
+    color: #2C4246;
+    background-color: #05BCCA;
+    margin: 32px;
+}
+
+.fa-cart-shopping {
+    font-size: 20px;
+    color: #05BCCA;
+    padding: 10px 9px;
+}
+
+.section1 {
+    height: 560px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: ;
+    background-image: url("../imiges/Rectangle\ 12\ \(1\).png");
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.span {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #05BCCA;
 }
