@@ -9,8 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 80px;
-    margin: auto;
+    padding: 32px 94px;
     position: fixed;
     max-width: inherit;
     width: inherit;
@@ -61,18 +60,19 @@ header {
 .fa-cart-shopping {
     font-size: 20px;
     color: #05BCCA;
-    padding: 10px 9px;
+    padding: 8px;
 }
 
 .section1 {
     height: 560px;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    background-image: url("../imiges/Rectangle\ 12\ \(1\).png");
-    margin: auto;
+    background-image: url(../imiges/Rectangle\ 12\ \(1\).png);
+    background-size: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h2 {
@@ -83,7 +83,7 @@ h2 {
     color: #FFFFFF;
 }
 
-span {
+.section1_span {
     font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -91,46 +91,41 @@ span {
     color: #05BCCA;
 }
 
-.section2 {
-    height: 716px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1A1A1A;
+.section1_button {
+    width: 36px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #C46A2B;
+    font-size: 17.5px;
+    color: #D9D9D9;
+    margin: 24px;
+    border: none;
 }
 
-h3 {
+.section2 {
+    width: calc(1140 / 1140 * 100%);
+    margin: auto;
+    column-gap: 20px;
+    background-color: #1A1A1A;
+    display: flex;
+}
+
+.section2_title{
     font-family: "Inter", sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
     color: #05BCCA;
-    margin-top: 94px;
-    text-decoration: underline;
-    padding: 8px;
     margin: auto;
-    margin-top: 92px;
-}
-
-.fa-arrow-right {
-    font-size: 17.5px;
-    color: #D9D9D9;
-}
-
-button {
-    border: none;
-    background-color: #C46A2B;
-    margin: 24px;
-    padding: 6px;
-    border-radius: 4px;
+    margin-top: 94px;
 }
 
 figure {
-    margin-top: 64px;
     background-color: #2C4246;
     border: 1px solid #05BCCA;
     padding: 8px;
+    column-gap: 20px;
+    margin: 224px auto;
 }
 
 figcaption {
@@ -139,34 +134,19 @@ figcaption {
     font-weight: 700;
     line-height: 27px;
     color: #D9D9D9;
-    padding: 16px;
 }
 
 .fa-star {
     font-size: 11.41px;
     color: #C46A2B;
-    border: none;
     margin-top: 16px;
-    padding: 4px;
 }
 
-.fa-dollar-sign {
-    font-size: 8px;
-    color: #05BCCA;
-    /* border: none; */
-    display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
-}
-
-p {
-    padding-left: 8px;
+.figcaption_span {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
     color: #05BCCA;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-left: 132px;
 }
