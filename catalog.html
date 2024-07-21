@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Catalog page</title>
     <link rel="stylesheet" href="css/reset.css">
     <script src="https://kit.fontawesome.com/681d249422.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -13,25 +14,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
+
 <body>
     <div class="container">
         <!-- header -->
         <header>
-            <div class="nav">
+            <i class="fa-solid fa-bars"></i>
+            <nav class="header_nav">
                 <ul class="navbar_ul">
-                    <li class="navbar_li">
-                        <a class="active" href="index.html">Home</a>
+                    <li>
+                        <a class="navbar_li_link" href="index.html">Home</a>
                     </li>
-                    <li class="navbar_li">
-                        <a class="active" href="catalog.html">Catalog</a>
+                    <li>
+                        <a class="navbar_li_link" href="catalog.html">Catalog</a>
                     </li>
-                    <li class="navbar_li">
-                        <a class="active" href="contact.html">Contact Us</a>
+                    <li>
+                        <a class="navbar_li_link" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
-            </div>
-            <img src="imiges/wpf_guitar.svg" alt="guitar logo" class="logo">
+            </nav>
+            <a href="index.html">
+                <img src="imiges/wpf_guitar.svg" alt="guitar logo" class="logo">
+            </a>
             <a href="index.html">
                 <i class="fa-solid fa-magnifying-glass inactive"></i>
             </a>
@@ -42,5 +50,13 @@
                 <i class="fa-solid fa-cart-shopping inactive"></i>
             </a>
         </header>
+        <!-- section -->
+        <section class="catalog_section">
+            <h2 class="h5">Filter</h2>
+            
+        </section>
+        <!-- footer -->
+        <footer></footer>
 </body>
+
 </html>
