@@ -35,10 +35,20 @@ header {
     font-weight: 400;
     line-height: 32px;
     color: #A1C3C9;
+    transition: 1s;
+}
+
+.navbar_li_link:hover {
+    color: #C46A2B;
+    text-shadow: 5px 5px 5px #C46A2B;
 }
 
 .logo {
     margin: 100px auto;
+}
+
+.logo:hover {
+    width: 80px;
 }
 
 .inactive {
@@ -46,6 +56,10 @@ header {
     padding: 14px;
     border-radius: 8px;
     border: 2px solid #05BCCA;
+}
+
+.inactive:hover {
+    box-shadow: 4px 4px 1px #C46A2B, inset 4px 4px 1px #C46A2B;
 }
 
 .fa-magnifying-glass {
@@ -85,6 +99,10 @@ h2 {
     color: #FFFFFF;
 }
 
+h2:hover {
+    text-shadow: 5px 5px 3px blue;
+}
+
 .section1_span {
     font-family: "Inter", sans-serif;
     font-size: 32px;
@@ -104,9 +122,13 @@ h2 {
     border: none;
 }
 
+.section1_button:hover {
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+}
+
 .section2 {
-    width: calc(1440 / 1440 * 100%);
-    margin: auto;
     background-color: #1A1A1A;
 }
 
@@ -118,6 +140,11 @@ h3 {
     color: #05BCCA;
     padding: 94px;
     padding-inline: 603px;
+}
+
+h3:hover {
+    color: #C46A2B;
+    text-shadow: 5px 5px 5px #C46A2B;
 }
 
 main {
@@ -143,9 +170,19 @@ figcaption {
     line-height: 27px;
     color: #D9D9D9;
 }
-figcaption:hover {
-    border-radius: 4px;
 
+.figure_img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+figure:hover {
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 4px #C46A2B;
+}
+
+figure:hover img {
+    border-radius: 20px 20px 20px 20px;
 }
 
 .fa-star {
@@ -169,7 +206,7 @@ footer {
     padding: 48px 306px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .footer_right_section {
@@ -185,6 +222,11 @@ footer {
     color: #D9D9D9;
 }
 
+.h4:hover {
+    color: #C46A2B;
+    text-shadow: 5px 5px 5px #C46A2B;
+}
+
 .footer_right_section_ul {
     display: flex;
     flex-direction: column;
@@ -198,6 +240,11 @@ footer {
     font-weight: 400;
     line-height: 24px;
     color: #D9D9D9;
+}
+
+.footer_right_section_a:hover{
+    font-size: 20px;
+    color: #C46A2B;
 }
 
 
@@ -225,18 +272,19 @@ footer {
     font-size: 14px;
     border-radius: 4px;
 }
-
-.catalog_section1 {
-    width: calc(1440/ 1440 * 100%);
+.fa-brands:hover{
+    font-size: 30px;
+}
+/* catalog.html */
+.catalog_section {
     padding: 96px 94px;
     border: 2px;
     background-color: #012426;
-    margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.h5 {
+h5 {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -265,13 +313,30 @@ footer {
     justify-content: space-between;
 }
 
-.vector1{
-    font-size: 32px;
+.vector1 {
+    display: flex;
+    align-self: center;
+    font-size: 25.33px;
     color: #D9D9D9;
+    margin: 16px;
 }
 
-.vector2{
+.vector2 {
     font-size: 15.48px;
     color: #2C4246;
+    margin: 36px;
+}
+
+
+/* contact.html */
+.contact_section{
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../imiges/contactis\ foto.png);
 }
 
