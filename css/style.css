@@ -60,10 +60,12 @@ header {
 }
 
 .inactive:hover {
-    box-shadow: 5px 5px 1px #C46A2B, inset 5px 5px 1px #FFFFFF;
+    box-shadow: 4px 4px 1px #C46A2B, inset 4px 4px 1px #FFFFFF;
 }
 
-
+.inactive:active {
+    box-shadow: inset 4px 4px 1px #C46A2B, inset -4px -4px 1px white;
+}
 
 .fa-magnifying-glass {
     font-size: 12px;
@@ -104,11 +106,12 @@ h2 {
     animation: opacity .5s infinite;
 }
 
-@keyframes opacity{
-    0%{
+@keyframes opacity {
+    0% {
         opacity: 1;
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
 }
@@ -367,9 +370,7 @@ h5 {
     background-image: url(../imiges/contactis\ foto.png);
 }
 
-.contact_main{
-    
-}
+.contact_main {}
 
 h6 {
     font-family: "Inter", sans-serif;
