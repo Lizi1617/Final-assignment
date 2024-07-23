@@ -1,3 +1,4 @@
+/* container */
 .container {
     width: min(100%, 1440px);
     margin: auto;
@@ -7,6 +8,7 @@
     display: none;
 }
 
+/* header */
 header {
     height: 96px;
     background-color: #012426;
@@ -35,7 +37,6 @@ header {
     font-weight: 400;
     line-height: 32px;
     color: #A1C3C9;
-    transition: 1s;
 }
 
 .navbar_li_link:hover {
@@ -59,8 +60,10 @@ header {
 }
 
 .inactive:hover {
-    box-shadow: 4px 4px 1px #C46A2B, inset 4px 4px 1px #C46A2B;
+    box-shadow: 5px 5px 1px #C46A2B, inset 5px 5px 1px #FFFFFF;
 }
+
+
 
 .fa-magnifying-glass {
     font-size: 12px;
@@ -80,6 +83,7 @@ header {
     padding: 8px;
 }
 
+/* section1 */
 .section1 {
     height: 560px;
     display: flex;
@@ -97,6 +101,16 @@ h2 {
     font-weight: 400;
     line-height: 36px;
     color: #FFFFFF;
+    animation: opacity .5s infinite;
+}
+
+@keyframes opacity{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 
 h2:hover {
@@ -128,8 +142,17 @@ h2:hover {
     font-size: 40px;
 }
 
+/* section2 */
 .section2 {
     background-color: #1A1A1A;
+}
+
+.line1 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 h3 {
@@ -147,7 +170,9 @@ h3:hover {
     text-shadow: 5px 5px 5px #C46A2B;
 }
 
-main {
+
+
+.section2_div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -171,7 +196,7 @@ figcaption {
     color: #D9D9D9;
 }
 
-.figure_img{
+.figure_img {
     width: 100%;
     margin-bottom: 16px;
 }
@@ -181,8 +206,9 @@ figure:hover {
     box-shadow: 0px 0px 8px 4px #C46A2B;
 }
 
-figure:hover img {
+figure:hover .figure_img {
     border-radius: 20px 20px 20px 20px;
+    filter: saturate(8);
 }
 
 .fa-star {
@@ -214,7 +240,7 @@ footer {
     column-gap: 223px;
 }
 
-.h4 {
+h4 {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -222,7 +248,7 @@ footer {
     color: #D9D9D9;
 }
 
-.h4:hover {
+h4:hover {
     color: #C46A2B;
     text-shadow: 5px 5px 5px #C46A2B;
 }
@@ -242,9 +268,9 @@ footer {
     color: #D9D9D9;
 }
 
-.footer_right_section_a:hover{
-    font-size: 20px;
-    color: #C46A2B;
+.footer_right_section_a:hover {
+    font-size: 19px;
+    color: #05BCCA;
 }
 
 
@@ -272,9 +298,11 @@ footer {
     font-size: 14px;
     border-radius: 4px;
 }
-.fa-brands:hover{
+
+.fa-brands:hover {
     font-size: 30px;
 }
+
 /* catalog.html */
 .catalog_section {
     padding: 96px 94px;
@@ -327,9 +355,8 @@ h5 {
     margin: 36px;
 }
 
-
 /* contact.html */
-.contact_section{
+.contact_section {
     height: 720px;
     display: flex;
     justify-content: center;
@@ -340,3 +367,14 @@ h5 {
     background-image: url(../imiges/contactis\ foto.png);
 }
 
+.contact_main{
+    
+}
+
+h6 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FFFFFF;
+}
