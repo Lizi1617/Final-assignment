@@ -173,8 +173,6 @@ h3:hover {
     text-shadow: 5px 5px 5px #C46A2B;
 }
 
-
-
 .section2_div {
     display: flex;
     justify-content: space-between;
@@ -183,7 +181,7 @@ h3:hover {
     padding-inline: 94px;
 }
 
-figure {
+.index_figure {
     background-color: #2C4246;
     border: 1px solid #05BCCA;
     column-gap: 20px;
@@ -204,12 +202,12 @@ figcaption {
     margin-bottom: 16px;
 }
 
-figure:hover {
+.index_figure:hover {
     border-radius: 30px;
     box-shadow: 0px 0px 8px 4px #C46A2B;
 }
 
-figure:hover .figure_img {
+.index_figure:hover .figure_img {
     border-radius: 20px 20px 20px 20px;
     filter: saturate(8);
 }
@@ -307,10 +305,27 @@ h4:hover {
 }
 
 /* catalog.html */
-.catalog_section1 {
+.section {
     padding: 96px 94px;
     background-color: #012426;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.catalog_card_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #012426;
+    padding-inline: 94px;
+    column-gap: 20px;
+}
+
+.catalog_figure {
+    column-gap: 20px;
+    padding: 8px;
+    background-color: #2C4246;
 }
 
 h5 {
@@ -319,26 +334,28 @@ h5 {
     font-weight: 700;
     line-height: 32px;
     color: #D9D9D9;
-    padding: 96px 94px;
 }
 
-.section_button {
-
+button {
+    width: 160px;
+    height: 32px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #A1C3C9;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #2C4246;
+    margin-left: 32px;
+    border: none;
 }
 
-.vector1 {
-    display: flex;
-    align-self: center;
-    font-size: 25.33px;
-    color: #D9D9D9;
-    margin: 16px;
-}
-
-.vector2 {
+.fa-chevron-down {
     font-size: 15.48px;
     color: #2C4246;
-    margin: 36px;
 }
+
 
 /* contact.html */
 .contact_section {
@@ -352,7 +369,6 @@ h5 {
     background-image: url(../imiges/contactis\ foto.png);
 }
 
-.contact_main {}
 
 h6 {
     font-family: "Inter", sans-serif;
