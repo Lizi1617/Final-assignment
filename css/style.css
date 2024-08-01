@@ -4,7 +4,8 @@
     margin: auto;
 }
 
-.fa-bars {
+.fa-bars,
+.fa-xmark {
     display: none;
 }
 
@@ -15,7 +16,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 94px;
     position: fixed;
     max-width: inherit;
     width: inherit;
@@ -23,7 +23,9 @@ header {
     transform: translateX(-50%);
     top: 0;
     z-index: 1;
-    border-bottom: 2px solid #05BCCA
+    border-bottom: 2px solid #05BCCA;
+    padding: 16px 64px;
+    padding-inline: 94px;
 }
 
 .navbar_ul {
@@ -108,9 +110,10 @@ h2 {
 }
 
 @keyframes opacity {
-    0%{ 
+    0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -130,7 +133,6 @@ h2:hover {
 
 .section1_button {
     width: 36px;
-    height: 24px;
     border-radius: 4px;
     background-color: #C46A2B;
     font-size: 17.5px;
@@ -304,12 +306,19 @@ h4:hover {
 }
 
 /* catalog.html */
-.section {
+.catalog {
     padding: 96px 94px;
     background-color: #012426;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.catalog_div_section {
+    padding: 96px 94px 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .catalog_card_section {
@@ -317,15 +326,22 @@ h4:hover {
     justify-content: center;
     align-items: center;
     background-color: #012426;
-    /* padding-inline: 94px; */
     column-gap: 20px;
+    row-gap: 40px;
     flex-wrap: wrap;
 }
 
 .catalog_figure {
-    column-gap: 20px;
-    padding: 8px;
     background-color: #2C4246;
+    box-shadow: 0px 0px 8px 4px #05BCCACC;
+}
+
+.catalog_figure:hover{
+    box-shadow: 0px 0px 8px 4px #C46A2B;
+}
+
+.catalog_figcaption {
+    padding: 16px 8px;
 }
 
 h5 {
@@ -334,6 +350,7 @@ h5 {
     font-weight: 700;
     line-height: 32px;
     color: #D9D9D9;
+    margin-right: 16px;
 }
 
 button {
@@ -356,19 +373,77 @@ button {
     color: #2C4246;
 }
 
+.catalog_button {
+    background-color: #012426;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.catalog_button1 {
+    width: 121px;
+    height: 40px;
+    background-color: #C46A2B;
+}
+
+.catalog_button1,
+.catalog_button2 {
+    padding: 8px;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #D9D9D9;
+    border: none;
+}
+
+
+.catalog_button1:hover{
+    box-shadow: inset 5px 5px 5px #FFFFFF, inset -5px -5px 5px #05BCCA;
+}
+
+.catalog_button2:hover{
+    box-shadow: inset 5px 5px 5px #FFFFFF, inset -5px -5px 5px #C46A2B;;
+}
+
+.catalog_button2 {
+    width: 92px;
+    height: 40px;
+    background-color: #05BCCA;
+}
+
+
+.fa-chevron-left,
+.fa-chevron-right {
+    font-size: 10px;
+    color: #D9D9D9;
+}
+
+.h7 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-inline: 48px;
+}
+
+
 
 /* contact.html */
 .contact_section {
     height: 720px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(../imiges/contactis\ foto.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(../imiges/contactis\ foto.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
 }
-
 
 h6 {
     font-family: "Inter", sans-serif;
@@ -376,4 +451,14 @@ h6 {
     font-weight: 700;
     line-height: 32px;
     color: #FFFFFF;
+}
+
+.contact_section_1 {
+    width: 616px;
+    padding: 35px 40px;
+    background-color: #2C4246;
+}
+
+.contact_button{
+    
 }

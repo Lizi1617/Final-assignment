@@ -1,4 +1,45 @@
 /* 1439px-769px */
-@media(max-width=1025px)
-/* header */
+@media (max-width: 1025px) {
 
+    /* header */
+    header {
+        padding-inline: 45px;
+    }
+
+    .header_nav {
+        position: fixed;
+        top: 98.4px;
+        background-color: #C46A2B;
+        left: -100%;
+        width: 200px;
+        height: 144px;
+        padding: 16px 56px 16px 16px;
+        transition: .5s linear;
+    }
+
+    .navbar_ul {
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    .fa-bars {
+        display: block;
+        width: 24px;
+        height: 16px;
+        color: #05BCCA;
+        border: 2.5px linear #05BCCA;
+    }
+
+    .fa-xmark {
+        width: 26.67px;
+        height: 26.67px;
+        color: #05BCCA;
+        border: 1.5px linear #05BCCA;
+    }
+
+    .show {
+        left: 0;
+    }
+
+  
+}
