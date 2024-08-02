@@ -1,4 +1,27 @@
 /* 768px-481px */
+@media (max-width: 745px) {
+
+    /* header */
+    header {
+        padding-inline: 32px;
+    }
+
+    /* footer */
+    footer {
+        padding-inline: 48px 32px;
+    }
+
+    /* catalog  */
+    .catalog{
+        padding: 48px 32px;
+    }
+
+    .catalog_card-section{
+        padding-inline: 32px;
+    }
+
+}
+
 @media (max-width:481px){
     /* header */
     header{
@@ -14,5 +37,4 @@
         display: block;
         padding: 32px 200px;
     }
-
 }

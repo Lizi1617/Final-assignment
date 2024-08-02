@@ -334,7 +334,7 @@ h4:hover {
     box-shadow: 0px 0px 8px 4px #05BCCACC;
 }
 
-.catalog_figure:hover{
+.catalog_figure:hover {
     box-shadow: 0px 0px 8px 4px #C46A2B;
 }
 
@@ -398,12 +398,13 @@ button {
 }
 
 
-.catalog_button1:hover{
+.catalog_button1:hover {
     box-shadow: inset 5px 5px 5px #FFFFFF, inset -5px -5px 5px #05BCCA;
 }
 
-.catalog_button2:hover{
-    box-shadow: inset 5px 5px 5px #FFFFFF, inset -5px -5px 5px #C46A2B;;
+.catalog_button2:hover {
+    box-shadow: inset 5px 5px 5px #FFFFFF, inset -5px -5px 5px #C46A2B;
+    ;
 }
 
 .catalog_button2 {
@@ -428,19 +429,12 @@ button {
     padding-inline: 48px;
 }
 
-
-
-/* contact.html */
-.contact_section {
-    height: 720px;
-    background-image: url(../imiges/contactis\ foto.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.box {
+    width: 616px;
+    height: 509px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 h6 {
@@ -451,12 +445,3 @@ h6 {
     color: #FFFFFF;
 }
 
-.contact_section_1 {
-    width: 616px;
-    padding: 35px 40px;
-    background-color: #2C4246;
-}
-
-.contact_button{
-    
-}

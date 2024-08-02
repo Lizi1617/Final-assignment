@@ -62,26 +62,3 @@
     }
 
 }
-
-@media (max-width: 745px) {
-
-    /* header */
-    header {
-        padding-inline: 32px;
-    }
-
-    /* footer */
-    footer {
-        padding-inline: 48px 32px;
-    }
-/* catalogistvis responsivi saertod ver davwere, albat tavidanve arasworad miweria stilebi */
-    /* catalog  */
-    .catalog{
-        padding: 48px 32px;
-    }
-
-    .catalog_card-section{
-        padding-inline: 32px;
-    }
-
-}
