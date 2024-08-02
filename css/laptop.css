@@ -41,5 +41,47 @@
         left: 0;
     }
 
-  
+    /* section2 */
+    .section2_div {
+        column-gap: 20px;
+        overflow-x: scroll;
+    }
+
+    /* footer */
+    footer {
+        padding: 48px 98px;
+    }
+
+    /* catalog */
+    .catalog{
+        padding-inline: 45px;
+    }
+
+    .catalog_card-section{
+        padding-inline: 45px;
+    }
+
+}
+
+@media (max-width: 745px) {
+
+    /* header */
+    header {
+        padding-inline: 32px;
+    }
+
+    /* footer */
+    footer {
+        padding-inline: 48px 32px;
+    }
+/* catalogistvis responsivi saertod ver davwere, albat tavidanve arasworad miweria stilebi */
+    /* catalog  */
+    .catalog{
+        padding: 48px 32px;
+    }
+
+    .catalog_card-section{
+        padding-inline: 32px;
+    }
+
 }

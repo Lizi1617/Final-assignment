@@ -1,1 +1,18 @@
 /* 768px-481px */
+@media (max-width:481px){
+    /* header */
+    header{
+        padding-inline: 20px;
+    }
+
+   .fa-user{
+        margin: 16px;
+    }
+
+    /* footer */
+    footer{
+        display: block;
+        padding: 32px 200px;
+    }
+
+}
