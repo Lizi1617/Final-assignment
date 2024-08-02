@@ -429,13 +429,26 @@ button {
     padding-inline: 48px;
 }
 
-.box {
-    width: 616px;
-    height: 509px;
+/* section */
+.contact_section{
+    background-image: url(../imiges/contactis\ foto.png);
+    height: 720px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 106px 94px;
+}
+
+.contact_article{
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
+
+
 
 h6 {
     font-family: "Inter", sans-serif;
