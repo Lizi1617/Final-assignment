@@ -439,6 +439,7 @@ button {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 35px 40px 35px 496px;
 }
 
 .title {
@@ -460,11 +461,12 @@ button {
 }
 
 .contact_logo{
-    padding-top: 35px;
+    /* padding-top: 35px; */
+    padding-left: 400px;
+    padding-bottom: 75px;
+} 
 
-}
-
-.fa-envelope{
+ .fa-envelope{
     font-size: 20px;
     padding-bottom: 24px;
 }
