@@ -430,31 +430,50 @@ button {
 }
 
 /* section */
-.contact_section{
-    background-image: url(../imiges/contactis\ foto.png);
+.catalog_section {
     height: 720px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    background-image: url(../imiges/contactis\ foto.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 106px 94px;
-}
-
-.contact_article{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-
-
-h6 {
+.title {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
     color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
+.box {
+    width: 616px;
+    height: 150px;
+    padding: 35px 40px;
+    background-color: #2C4246;
+}
+
+.contact_logo{
+    padding-top: 35px;
+
+}
+
+.fa-envelope{
+    font-size: 20px;
+    padding-bottom: 24px;
+}
+
+.fa-mobile{
+    font-size: 15px;
+}
+
+.fa-envelope,
+.fa-mobile{
+    color: #D9D9D9;
+}
